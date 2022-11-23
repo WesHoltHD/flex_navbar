@@ -1,0 +1,42 @@
+h1 {
+    color: white;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+.nav {
+    background-color: #333;
+    display: flex;
+    height: 80px;
+    width: 1000px;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+#nav-links {
+    justify-content: flex-end;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+.btn {
+    background-color: lightseagreen;
+    height: 35px;
+    width: 100px;
+    border: none;
+    box-shadow: 5px 5px black;
+}
+
+body{
+    font-family:'roboto', sans-serif;
+}
